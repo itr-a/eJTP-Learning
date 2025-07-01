@@ -1,4 +1,4 @@
-## Windows Recon: SMB Nmap Scripts
+# Windows Recon: SMB Nmap Scripts
 Target machine : demo.ine.local  
 
 NOTE
@@ -8,36 +8,36 @@ NOTE
 - Works over TCP port 445 (sometimes 139)
 
 #### 1.Identify SMB Protocol Dialects
+SMB protocol dialects = **version** of the SMB protocol
 ```bash
-nmap - 445,139 target.ine.local demo.ine.local
+nmap --script smb-protocols -p 445,139 demo.ine.local
 ```
 Output
 ```bash
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-07-01 07:16 IST
-Failed to resolve "-".
-Bare '-': did you put a space between '--'?
-Failed to resolve "445,139".
-Failed to resolve "target.ine.local".
-Nmap scan report for demo.ine.local (10.0.27.155)
-Host is up (0.0023s latency).
-Not shown: 992 closed tcp ports (reset)
-PORT      STATE SERVICE
-135/tcp   open  msrpc
-139/tcp   open  netbios-ssn
-445/tcp   open  microsoft-ds
-3389/tcp  open  ms-wbt-server
-49152/tcp open  unknown
-49153/tcp open  unknown
-49154/tcp open  unknown
-49155/tcp open  unknown
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-07-01 11:20 IST
+Nmap scan report for demo.ine.local (10.0.29.147)
+Host is up (0.0028s latency).
 
-Nmap done: 1 IP address (1 host up) scanned in 1.44 seconds
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-protocols: 
+|   dialects: 
+|     NT LM 0.12 (SMBv1) [dangerous, but default]
+|     2:0:2
+|     2:1:0
+|     3:0:0
+|_    3:0:2
+
+Nmap done: 1 IP address (1 host up) scanned in 5.19 seconds
 ```
 List shared folders
 *-L*  : lists shares
 *-N* : means "no password" for anonymous access
 ```bash
-smbclient -L //demo.ine.local/ -N
+smbclient -U administrator -L //demo.ine.local/ 
 ```
 Output
 ```bash
