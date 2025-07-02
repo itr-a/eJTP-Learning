@@ -9,5 +9,7 @@ CTF, practicing lab notes
 ├── INE-courses/  
 │   ├── Assessment Methodologies: Vulnerability Assessment/
 │   │   ├── Vulnerability Assessment/
-        |   ├── video-01-overview of Windows vulnerabilities
+|       |   ├── video-01-overview of Windows vulnerabilities
+|
+|
 ```
