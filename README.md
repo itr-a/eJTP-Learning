@@ -9,5 +9,6 @@ CTF, practicing lab notes
 ├── INE-courses/  
 │   ├── Assessment Methodologies: Vulnerability Assessment/
 │   │   ├── Vulnerability Assessment/
-|   |   |   ├── [video-02-frequently exploited Windows services]([video-02-frequently exploited Windows services](INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/video-02-frequently%20exploited%20Windows%20services.md)
+|   |   |   ├── [video-02-frequently exploited Windows services](INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/video-02-frequently%20exploited%20Windows%20services.md)
+
 ```
