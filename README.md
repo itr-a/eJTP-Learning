@@ -1,10 +1,13 @@
-### My eJPT learning journal!
+## My eJPT learning journal!
 CTF, practicing lab notes
 
-## Structure of this repository
+### Structure of this repository
+```
 /eJPT-Learning/
 ├── README.md                     
 ├── learning-log.md                      
-├── INE-courses/
-│   ├── chapter-1-footprinting/
-│   │   ├── section-1-intro/
+├── INE-courses/  
+│   ├── Assessment Methodologies: Vulnerability Assessment/
+│   │   ├── Vulnerability Assessment/
+        |   ├── video-01-overview of Windows vulnerabilities
+```
