@@ -22,7 +22,7 @@ Learned ports and what it does -> took quiz
 [Nmap](https://github.com/itr-a/eJTP-Learning/blob/05a7aa3ec5a1f6050154d868da5d8b3debb66dcf/Tools/Nmap.md)
 #### 📖 Topic Studied
 - Metasploit
-  Vulnerability scanning with Metasploit framework
+  Vulnerability scanning with Metasploit framework  
   Host discovery with Nmap -> Search and Use exploits (Manua, Builtin, Plugin)
 #### 💡 Concepts Learned
 - Exploitation needs **service version**
