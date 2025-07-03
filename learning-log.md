@@ -17,7 +17,9 @@ Learned ports and what it does -> took quiz
 ---
 
 ### 📆 [Date July 3rd, 2025]
-[video 03](https://github.com/itr-a/eJTP-Learning/blob/4bdf44c48403ecf2a50b717e968800fb1665f29d/INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/Lesson-01/video-03.md)
+[video 03](https://github.com/itr-a/eJTP-Learning/blob/4bdf44c48403ecf2a50b717e968800fb1665f29d/INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/Lesson-01/video-03.md)  
+[Metasploit](https://github.com/itr-a/eJTP-Learning/blob/05a7aa3ec5a1f6050154d868da5d8b3debb66dcf/Tools/Metasploit.md)  
+[Nmap](https://github.com/itr-a/eJTP-Learning/blob/05a7aa3ec5a1f6050154d868da5d8b3debb66dcf/Tools/Nmap.md)
 #### 📖 Topic Studied
 - Metasploit
   Vulnerability scanning with Metasploit framework
