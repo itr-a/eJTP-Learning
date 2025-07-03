@@ -12,3 +12,8 @@
 +------------+                                               +------------+
      Atk                                                         target
 ```
+
+`-sn`
+- Ping scan
+- Useful when only want to discover live devices on the network
+- Identifying target IP
