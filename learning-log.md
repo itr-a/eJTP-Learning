@@ -2,7 +2,7 @@
 > A personal log to track my eJPT learning!
 
 ### 📆 [Date July 2nd, 2025]
-[video 02 - Windows services overview](https://github.com/itr-a/eJTP-Learning/blob/189713b8f6a99004e12b28aaf7da480f4ce475db/INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/video-02-frequently%20exploited%20Windows%20services.md)
+[video 02 - Windows services overview](https://github.com/itr-a/eJTP-Learning/blob/ba561a7ce07441cfb93797c299545e285e4a1692/INE-courses/Assessment%20Methodologies%3A%20Vulnerability%20Assessment/Lesson-01/Frequently%20exploited%20Windows%20services)
 #### 📖 Topic Studied
 - Frequently Exploited Windows Services
 Services: IIS, WebDAV, SMB, RDP, WinRM  
