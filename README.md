@@ -8,6 +8,12 @@ CTF, practicing lab notes
 ├── learning-log.md                      
 ├── INE-courses/  
 │   ├── Assessment Methodologies: Vulnerability Assessment/
-│   │   ├── Vulnerability Assessment/
-|   |   |   ├── video-02-frequently exploited Windows services
+│   |   ├── Vulnerability Assessment/
+|   |   |   ├── video-02
+|   |   |   ├── video-03
+|   |   |   └── video-04
+|   
+└── Tools
+    ├── Nmap
+    └── Metasploit
 ```
