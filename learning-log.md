@@ -23,7 +23,7 @@ Learned ports and what it does -> took quiz
 #### 📖 Topic Studied
 - Metasploit
   Vulnerability scanning with Metasploit framework  
-  Host discovery with Nmap -> Search and Use exploits (Manua, Builtin, Plugin)
+  Host discovery with Nmap -> Search and Use exploits (Manual, Builtin, Plugin)
 #### 💡 Concepts Learned
 - Exploitation needs **service version**
 - Should run `show options` before running
