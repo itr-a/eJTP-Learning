@@ -39,13 +39,13 @@
   /uploads etc
 - It does not brute-force — instead, it uses a predefined list of common paths to quickly detect known pages or services.
 - Sample output:
-```bash
-PORT   STATE SERVICE
-80/tcp open  http
-| http-enum:
-|   /admin/ => 403 Forbidden
-|   /login/ => 200 OK
-|   /phpmyadmin/ => 200 OK
-|   /wordpress/ => 301 Moved Permanently
-|_  /uploads/ => 200 OK
-```
+  ```bash
+  PORT   STATE SERVICE
+  80/tcp open  http
+  | http-enum:
+  |   /admin/ => 403 Forbidden
+  |   /login/ => 200 OK
+  |   /phpmyadmin/ => 200 OK
+  |   /wordpress/ => 301 Moved Permanently
+  |_  /uploads/ => 200 OK
+  ```
