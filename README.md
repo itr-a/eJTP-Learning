@@ -9,11 +9,12 @@ CTF, practicing lab notes
 ├── INE-courses/  
 │   ├── Assessment Methodologies: Vulnerability Assessment/
 │   |   ├── Vulnerability Assessment/
-|   |   |   ├── video-02
-|   |   |   ├── video-03
-|   |   |   └── video-04
+|   |   |   ├── video-02.md
+|   |   |   ├── video-03.md
+|   |   |   └── video-04.md
 |   
 └── Tools
-    ├── Nmap
-    └── Metasploit
+    ├── Nmap.md
+    ├── Hydra.md
+    └── Metasploit.md
 ```
