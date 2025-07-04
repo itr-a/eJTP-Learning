@@ -8,11 +8,14 @@ CTF, practicing lab notes
 ├── learning-log.md                      
 ├── INE-courses/  
 │   ├── Assessment Methodologies: Vulnerability Assessment/
-│   |   ├── Vulnerability Assessment/
+│   |   ├── Lesson-01/
 |   |   |   ├── video-02.md
 |   |   |   ├── video-03.md
 |   |   |   └── video-04.md
-|   
+|   |   ├── Lesson-02/
+|   |   |    ├── video-01
+|   |   |
+|
 └── Tools
     ├── Nmap.md
     ├── Hydra.md
