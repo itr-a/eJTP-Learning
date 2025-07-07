@@ -47,7 +47,7 @@
         │ ✔ scan LAN        │
         └───────────────────┘
 ```
-
+#### Commands
 `msfconsole`
 - Start Metasploit console
   
