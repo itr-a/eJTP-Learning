@@ -78,3 +78,15 @@
 `analyze`
 - Analyze vulnerabilities
 
+`migrate <PID>`\
+- Meterpreter command
+- Moces active Meterpreter session **from the current process** to **another process** running on the target system
+- <PID> : Process ID
+Why migrate?\
+- Some processes are more stable or have higher privileges (like explorer.exe or services.exe).
+- If your current session is running inside a short-lived or restricted process, migrating helps you keep control longer or get better permissions.
+- It can help avoid crashing the exploited process and losing your session.
+How does it work technically?
+-Your Meterpreter code injects itself into the memory space of the new target process.
+- Then it starts running from there.
+- This lets your session survive if the original exploited process exits.
