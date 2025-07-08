@@ -18,6 +18,9 @@ CTF, practicing lab notes
 |   |   |   ├── 04-Linux Vuln.md
 |   |   |   ├── 05-Shellshcok.md
 |   |   |   └── 06-BlueKeep.md
+|   |   └── Lesson-03/
+|   |       ├── 01-Nessus.md
+|   |       └── 02-WMAP.md
 └── Tools
     ├── Nmap.md
     ├── Hydra.md
