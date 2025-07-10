@@ -1,13 +1,14 @@
 ## My eJPT learning journal!
-CTF, practicing lab notes
+
 
 ### Structure of this repository
 ```
 /eJPT-Learning/
 ├── README.md                                         
 ├── INE-courses/  
-│   ├── Assessment Methodologies: Vulnerability Assessment/
-│   |   ├── Lesson-01/
+│   ├── Assessment_Methodologies
+│   |   ├── Assessment_Methodologies
+│   |   |   ├── Assessmen_/
 |   |   |   ├── video-02.md
 |   |   |   ├── video-03.md
 |   |   |   └── video-04.md
