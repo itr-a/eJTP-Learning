@@ -12,11 +12,10 @@ nmap victim-1
 
 **auxiliary/scanner/http/apache_userdir_enum**
 ```bash
-# Check if any username in uername file exists in the web server
-run
+# This module determines if usernames are valid on a server running Apache with the UserDir directive enabled. 
 
 # Output
-*] http://192.36.149.3/~ - Trying UserDir: ''
+[*] http://192.36.149.3/~ - Trying UserDir: ''
 [*] http://192.36.149.3/ - Apache UserDir: '' not found
 [*] http://192.36.149.3/~4Dgifts - Trying UserDir: '4Dgifts'
 [*] http://192.36.149.3/ - Apache UserDir: '4Dgifts' not found
@@ -49,7 +48,7 @@ run
 
 **auxiliary/scanner/http/dir_scanner**
 ```bash
-# Detect directions return error code
+# This module scans one or more web servers for interesting directories that can be futrher exploited
 run
 
 # Output
@@ -73,6 +72,8 @@ run
 [+] Found http://192.36.149.3:80/~nobody/ 404 (192.36.149.3)
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
+
+# `404`: The browser successfully connected to the server, but the specific page or file the user was trying to access doesn't exist or has moved
 ```
 
 **auxiliary/scanner/http/dir_listing**
