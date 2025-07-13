@@ -31,7 +31,7 @@
 
 ---
 #### --script 
->In general, **Nmap scriopts** that test for vulns, Auth bypasses, Brute force attacks etc\
+>In general, **Nmap scripts** that test for vulns, Auth bypasses, Brute force attacks etc\
 `--script=http-enum`
 - Nmap NSE (Nmap Scripting Engine) script used to enumerate common web application paths on an HTTP server.
 - Checks for the presentce for commnly known web paths such as:
@@ -54,3 +54,8 @@
 - Sends specially crafted HTTP request (with a payload in the header)
 - If the server is using vulnerable Bash in its backend (via CGI), it might **execute the command**
 - If successful, it reports **"VULNERABE"**
+
+
+`--script vuln`\
+These scripts check for specific known vulnerabilities and generally only report results if they are found.\
+[Nmap.org NSE Usage and Examples](https://nmap.org/book/nse-usage.html#nse-category-vuln)
