@@ -14,4 +14,3 @@ Cadaver is a command-line WebDAV client available in Kali Linux that allows user
 
 - **multi/handler**\
 metasploit module that essentially used to set up a listener for the malicurous that you created
-
