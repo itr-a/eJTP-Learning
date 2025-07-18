@@ -58,6 +58,7 @@ Domain          : WORKGROUP
 Logged On Users : 2
 Meterpreter     : x86/windows
 
+
 meterpreter > pgrep explorer
 2844
 
